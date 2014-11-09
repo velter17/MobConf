@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:screenOrientation="portrait"
+    android:layout_height="match_parent"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:stretchColumns="*"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:id="@+id/row1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/Report_menu"
+                android:background="@drawable/menubutton"
+                android:layout_column="0"
+                android:onClick="showReports"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/button" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/Rate_menu"
+                android:background="@drawable/menubutton1"
+                android:id="@+id/button2"
+                android:layout_gravity="center_horizontal"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:id="@+id/row2">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/Help_menu"
+                android:background="@drawable/menubutton2"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/button3" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/About_menu"
+                android:background="@drawable/menubutton3"
+                android:id="@+id/button4"
+                android:layout_gravity="center_horizontal"
+                android:layout_column="1" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

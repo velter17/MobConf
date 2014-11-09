@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="E:\Dmitriy\AndroidStudio\MobConf\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-b1cbcc2759968a619361892ec514a59b3b2b376d.jar"
+        jar="C:\Users\Dmitriy\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="E:\Dmitriy\AndroidStudio\MobConf\app\build\intermediates\pre-dexed\debug\classes-da8ecda10d823baeb32ebe687b20be435428a8bb.jar"
+        jar="E:\Dmitriy\AndroidStudio\MobConf\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="E:\Dmitriy\AndroidStudio\MobConf\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-7cbecff2ba0731b5150504047b5fe5d9262f91c3.jar"
+        jar="E:\Dmitriy\AndroidStudio\MobConf\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="E:\Dmitriy\AndroidStudio\MobConf\app\build\intermediates\pre-dexed\debug\classes-36e110e279fee95bfe70e794b4769f137dba9e4f.jar"
+        jar="E:\Dmitriy\AndroidStudio\MobConf\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+
+</pre-dex-items>

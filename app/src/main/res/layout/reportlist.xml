@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:background="@drawable/bg"
+    >
+
+    <TableLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/blankpaper"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="0dp"
+        android:weightSum="100"
+        android:stretchColumns="*"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_weight="10"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:visibility="invisible"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_weight="70"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:weightSum="100"
+            >
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_width="0dp"
+                android:layout_column="0"
+                android:layout_marginBottom="0dp">
+
+            </LinearLayout>
+            <ListView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="80"
+                android:id="@+id/listView"
+                android:layout_column="1"
+
+
+                />
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_width="0dp"
+                android:layout_column="2"
+                >
+
+            </LinearLayout>
+            </TableRow>
+        <TableRow
+            android:layout_weight="10"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/NewReportButton"
+                android:onClick="newReport"
+                android:text="New report"
+                android:layout_column="0"
+                android:gravity="center"
+                android:layout_gravity="center_vertical" />
+            </TableRow>
+        <TableRow
+            android:layout_weight="10"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:visibility="invisible"
+                android:layout_column="0"
+                />
+
+        </TableRow>
+    </TableLayout>
+<!---
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/blankpaper"
+        android:layout_alignParentLeft="true"
+
+        android:weightSum="100"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="10"></LinearLayout>
+
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:id="@+id/listView"
+            android:layout_weight="80"
+             />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="10"></LinearLayout>
+
+    </LinearLayout>
+    -->
+</RelativeLayout>

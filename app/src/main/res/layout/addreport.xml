@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:background="@drawable/reportbg"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New report"
+        android:textSize="35sp"
+        android:id="@+id/textTitle"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/AddButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+
+        android:id="@+id/DateText"
+        android:layout_below="@+id/textTitle"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:hint="Date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+
+        android:id="@+id/TimeText"
+        android:layout_below="@+id/DateText"
+        android:layout_alignLeft="@+id/DateText"
+        android:layout_alignRight="@+id/DateText"
+        android:layout_alignStart="@+id/DateText"
+        android:layout_marginTop="10dp"
+        android:hint="Time" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+
+        android:id="@+id/RoomText"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/TimeText"
+        android:layout_alignLeft="@+id/TimeText"
+        android:layout_alignRight="@+id/DateText"
+        android:hint="Room"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/ReportText"
+        android:gravity="start"
+        android:hint="Text"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/RoomText"
+        android:layout_above="@id/AddButton"
+        android:layout_alignLeft="@+id/TimeText"
+        android:layout_alignRight="@+id/DateText"
+        android:enabled="true"
+        android:background="@drawable/textborder"
+        android:scrollbars = "vertical"
+        android:editable="true" />
+
+</RelativeLayout>

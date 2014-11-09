@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile Conferences</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="LoginEdit">Login</string>
+    <string name="PassEdit">Password</string>
+    <string name="LoginButton">Log in</string>
+    <string name="NewAccButton">Forgot pass</string>
+    <string name="Report_menu">Reports</string>
+    <string name="Help_menu">Help</string>
+    <string name="Rate_menu">Rate</string>
+    <string name="About_menu">About</string>
+    <string name="Regist_title">Registration</string>
+    <string name="Reports">MobConf | Reports</string>
+</resources>
